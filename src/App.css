@@ -1,0 +1,579 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+.toplogo2{
+  min-width: 250px;
+  display: flex;
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+  align-items: center;
+  justify-content: space-between;
+}
+.iop{
+display: flex;
+align-items: center;
+flex-wrap:  wrap;
+width: auto;
+}
+.blink {
+  color: rgb(236, 14, 14);
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.zxcert{
+ min-width:210px;
+ margin: 2px;
+ flex-grow: 1;
+ border-radius: 8px;
+ box-shadow: 0 6px 10px -4px rgb(0 0 0/ 95%);
+ transition: transform .3s cubic-bezier(.34,2,.6,1),box-shadow .2s ease;
+ touch-action: manipulation;
+
+ background-color: rgb(255, 255, 255);
+}
+.zxcert input{
+  width: 40px;
+height: 20px;
+}
+button{
+min-width: 30px;
+height: 30px;
+font-size: 1.8rem;
+font-weight: 400;
+font-style: italic;
+color: crimson;
+}
+.xertgh{
+  display: flex;
+}
+span{
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.8rem;
+  color: darkblue;
+}
+p{
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.8rem;
+}
+.xertgh input{
+width: 40px;
+height: 20px;
+}
+.vfr36{
+  width: 150px;
+  display: flex;
+}
+header{
+  position: relative;
+}
+.vfr36 img{
+  width: 150px;
+  height: 35px;
+  object-fit: contain;
+  margin-left: 1vw;
+}
+.toplogo2 img{
+  height: 45px;
+  width: 24%;
+  object-fit: contain;
+}
+.toplogo2 button{
+  color: white;
+  border: 12px;
+  font-weight: 800;
+  font-size: 1.5rem;
+  background-image: linear-gradient(to left, rgb(28, 171, 162) 25%, rgb(28, 127, 171));
+}
+.bikecar34{
+  margin-left: 1vw;
+  background:url(bikeandcar.jpg);
+  height: 100vh;
+  display: flex;
+  width: 99%;
+  min-width: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.bikecar343{
+  margin-left: 1vw;
+  background:url(Scooty.png);
+  height: 100vh;
+  display: flex;
+  width: 99%;
+  min-width: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+.formcab{
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height:auto;
+  box-sizing: border-box;
+
+  min-width: 200px;
+  margin: 1vw;
+  color:White;
+  justify-content: space-between;
+  border-radius: 22px!important;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.formcab1{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height:auto;
+  box-sizing: border-box;
+  margin: 1vw;
+  color:White;
+  justify-content: space-between;
+  border-radius: 22px!important;
+  background-color: rgba(16, 208, 32, 0.8);
+}
+
+.inputt3{
+  margin: auto;
+  display: flex;
+min-width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.more34{
+  width: 150px;
+  min-width: 60px;
+  border-radius: 3px ;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1rem;
+font-weight: 800;
+font-style: normal;
+font-family: Arial, Helvetica, sans-serif;
+}
+.samyahai{
+font-size: 1.8rem;
+font-weight: 900;
+font-style: normal;
+color: red;
+}
+.samyahai1{
+  font-size: 1.8rem;
+  font-weight: 900;
+  font-style: normal;
+  color: rgb(66, 217, 12);
+  }
+.formcab1 input{
+height: 60px;
+outline-style: none;
+border: none;
+
+border-radius: 8px;
+margin: 8px;
+background-color:white;
+flex: 1 1 50px;
+}
+h1{
+  display: flex;
+  margin: 1px;
+}
+.formcab input{
+  height: 60px;
+  outline-style: none;
+  border: none;
+  
+  border-radius: 8px;
+  margin: 8px;
+  background-color:white;
+  flex: 1 1 50px;
+  }
+select{
+  height: 60px;
+  border: none;
+  margin: 8px;
+  border-radius: 8px;
+  outline-style: none;
+  flex: 0 1 50px;
+  background-color:white;
+}
+.font56{
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-style: normal;
+}
+ .inputt3 button{
+  height: 60px;
+  outline-style: none;
+  border: none;
+  background-image: linear-gradient(to left, rgb(28, 171, 162) 25%, rgb(28, 127, 171));
+  flex: 0 1 40px;
+  color:#fff;
+  min-width:130px;
+  margin-bottom: 5px;
+  align-items: center;
+justify-content: center;
+font-size: 2rem;
+font-weight: 800;
+font-style: normal;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 13px;
+margin-top:12%;
+}
+.box1{
+  min-width: 250px;
+  width: 99%;
+  margin: 1vw;
+  padding: 1vw;
+  box-sizing: border-box;
+  display: flex;
+}
+.cvft67{
+  margin: 1vw;
+  padding: 1vw;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.seltop45{
+  display: flex;
+  padding: 1vw;
+  gap: 3.5vw;
+
+}
+.brande{
+  font-size: 1.9rem;
+  font-weight: 900;
+  font-style: normal;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.brande:after{
+  content:" ";
+  width: 0%;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: rgb(15, 236, 162);
+  margin: 1px;
+  bottom:-1px;
+  position: absolute;
+  border-radius: 2px;
+
+}
+.brande:hover:after
+{
+  width:100%;
+  transition: 0.7 ease all;
+}
+.bnjk{
+  display: flex;
+flex-wrap: wrap;
+width:100%
+}
+.card34{
+  position: relative;
+  flex:1 1 300px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0 6px 10px -4px rgb(0 0 0/ 95%);
+  transition: transform .3s cubic-bezier(.34,2,.6,1),box-shadow .2s ease;
+  touch-action: manipulation;
+}
+.card34:hover{
+  transform: translate(0, -10px);
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  border-radius: 8px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.card34:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+.text {
+  color: white;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  gap: 3vw;
+  flex-direction: column;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  align-self: center;
+}
+.fde{
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  justify-content: center;
+}
+.ert{
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+}
+.green{
+  display: flex;
+  font-size: 1.8rem;
+  white-space: nowrap;
+  font-weight: 900;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color:aqua;
+}
+.datE34{
+display: flex;
+border-top: 1px solid gray;
+
+flex-direction: column;
+gap: 1vw;
+}
+.xcder{
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+.extra5{
+  display: flex;
+  font-size: 1.6rem;
+  white-space: nowrap;
+  font-weight: 900;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#fff;
+}
+.ext45cv{
+  display: flex;
+  font-size: 1.6rem;
+  white-space: nowrap;
+  font-weight: 900;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color:green;
+}
+.card34 img{
+  
+  height: auto;
+  width: 100%;
+  
+  object-fit: cover;
+  border-radius: 8px;
+}
+.zxcert img{
+  max-width: 210px;
+  object-fit: cover;
+  height: auto;
+}
+.cvrxc{
+  width: 100px!important;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+  gap: 2vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0 6px 10px -4px rgb(0 0 0/ 95%);
+  transition: transform .3s cubic-bezier(.34,2,.6,1),box-shadow .2s ease;
+  touch-action: manipulation;
+
+}
+.cvt6{
+  display: flex;
+  font-size: 3.4rem;
+  font-weight: 900;
+  font-style: normal;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.xe45v img{
+  width: 90%;
+}
+.journey4{
+  margin: 1vw;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  width: 99%;
+  gap: 1vw;
+
+  border-radius: 8px;
+
+}
+.journtext{
+  margin-left:2.6vw;
+  display: flex;
+  width: auto;
+  min-width: 200px;
+  align-items: center;
+  font-size: 3.4rem;
+  font-weight: 900;
+  color: grey;
+  line-height:1.2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+.jorbox{
+  margin-left: 2.6vw;
+  width: 94%;
+  display: flex;
+  min-width: 230px;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px -4px rgb(0 0 0/ 95%);
+}
+.excvhy{
+  margin: 2vw;
+  margin-left: 3vw;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.vcea{
+width: 68%;
+height: auto;
+flex:0 1 50px;
+display: flex;
+gap: 1vw;
+margin: 4px;
+flex-direction: column;
+}
+.vcea img{
+  width: 100px;
+  height: 60%;
+  display: flex;
+  object-fit: contain;
+}
+.textcvgh{
+  display: flex;
+  font-size: 2.3rem;
+  font-weight: 900;
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+.texsw{
+  display: flex;
+  font-weight: 400;
+  white-space: nowrap;
+  font-size: 1.9rem;
+  font-style:normal;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.rtvh{
+  margin-top: 10%;
+}
+.footercv{
+  display: flex;
+  margin: 1.3vw;
+  width: 97%;
+  min-width: 250px;
+  background-color: blueviolet;
+}
+.xawec{
+  margin-left: 2vw;
+  margin-right: 2vw;
+  padding-left: 1vw;
+  display: flex;
+  background-color: blue;
+  flex-wrap: wrap;
+}
+.cxwrt{
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.boxlogo{
+  display: flex;
+
+  flex: 0 1 200px;
+  flex-direction: column;
+}
+.boxlogo img{
+  display: flex;
+  width: 20%;
+  height: 60%;
+  object-fit: cover;
+}
+.fotmenu{
+  font-size: 1.7rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal; 
+  color: black;
+}
+.socialllogo{
+  display: flex;
+}
+
+
+@media screen and (max-width:986px) {
+
+html{
+  font-size: 55%;
+}
+}
